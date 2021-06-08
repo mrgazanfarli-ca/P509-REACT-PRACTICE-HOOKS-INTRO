@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #477774;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,100 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.custom-input {
+  padding: 8px 20px;
+  border-radius: 4px;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.custom-button {
+  min-width: 112px;
+  padding: 12px 24px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border-radius: 4px;
+  font-size: 20px;
+  color: white;
+  background-color: #db2147;
+  cursor: pointer;
+}
+
+.custom-button:active {
+  transform: scale(.95);
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.mt-2 {
+  margin-top: 8px;
+}
+
+.question-card {
+  background-color: white;
+  border-radius: 8px;
+  border: #555;
+  padding: 20px 32px;
+  margin-top: 16px;
+}
+
+.question-card:first-child {
+  margin-top: 0;
+}
+
+.question-card p, .question-card label {
+  color: #477774;
+  font-weight: 700;
+  text-align: left;
+  width: 100%;
+}
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.question-card--correct {
+  border: 8px solid #B0F507;
+}
+
+.question-card--wrong {
+  border: 8px solid #db2147;
+}
+
+.answer-container {
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.answer-container:last-child {
+  margin-bottom: 0;
+}
+
+.answer-container label {
+  margin-left: 8px;
+}
+
+.mb-2 {
+  margin-bottom: 8px;
 }
